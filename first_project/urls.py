@@ -19,4 +19,5 @@ from first_app import views
 from django.conf.urls import include
 urlpatterns = [
     path(r'first/', include('first_app.urls')),
+    path('admin/', admin.site.urls)
     ]
